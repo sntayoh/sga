@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5052ae2f48.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo s2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+        <p>SENIOR <span>Economist</span> and Data Analyist</p>
+        <h1>Hello, I'm <span>Sintayohu Getachew</span> <br>(Aka, Sntayoh in my official documents)<br>From Addis Ababa, Ethiopia.</h1>
+        </div>
+    </div>
+</div>
+<!----------------------- about ---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/s.user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A senior economist with a substantial background in preparing and producing annual and strategic plans. Experienced in creating monitoring and evaluation toolkits and manuals. Capable to design and produce various programs and/or project reports. Design and undertake monitoring and evaluation missions to project sites. Skilled at data analysis and interpretation via MIS and creating reports with visualization and dashboards. I am looking for work as a senior economist, monitoring and evaluation consultant, and project coordinator to advance my management career.
+
+                    <br>I have more than 15 years of experience as an Economist and I am adept in planning, reporting, monitoring, and data analysis. Aside from the fact that my work experience has given me a diverse skill set, including excellent project management and preparing documentation skills, I excel at the following:
+                    
+                    <br> Designing robust monitoring and evaluation plan with the theory of change and logical framework.
+                    <br> Prepare, produce and make plans and reports of programs/projects using Power BI with dashboards
+                    <br> Supervise programs and/or project tracks through Microsoft project planning and other tools
+                    <br> Create and apply virtual questionnaires via Kobo Toolbox and analyze them with STATA and SPSS 
+                    
+                    <br>I have been working as a senior Economist in WRDF/MoWE for six years, and have gained a solid grasp of creating how to plan, report, and design monitoring and evaluating manuals and toolkits. Recently, I signed a contract to design and submit an M & E plan document with the International Fund for Agricultural Development (IFAD) for the IGREENFIN program that I have delivered.
+                    
+                    <br>In my prior positions, I was responsible for collecting, organizing, and analyzing data for planning, monitoring, and reporting in the Ministry of Water and Energy's OWNP Program, which was funded by the World Bank, DFID, and UNICEF. Additionally, I have delivered various toolkits and manuals to follow up and evaluate projects in governmental and non-governmental organizations. 
+                    
+                    <br>In addition to my experience and personal qualities, I have a Master’s degree in Economics and a passion for extracting clarity in applied economics. I am excited about the opportunity to join your organization/institution and add my experience to your team.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')" >Education</p>
+                        <p class="tab-links"onclick="opentab('trainnings')" >Trainnings</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>POWER BI</span><br>	Prepare, produce and make plan and reports of programs and/or projects </li>
+                            <li><span>MS Project Planning</span><br>	plan, supervise, appraise and evaluate programs and/or projects</li>
+                            <li><span>Kobo ToolBox</span><br>	Create and apply virtual questionnaires  </li>
+                            <li><span>STATA</span><br>	TO analyze collected data from projects </li>
+                            <li><span>M&E Planning tools</span><br>	Develop m&E planning via theory of change, logical framework </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>09/12/2016 - Current</span><br>	Senior Economist at Water Resources Development Fund/Merged to Ministry of Water and Energy since 2022/ </li>
+                            <li><span>11/23/2021-12/31/2021</span><br>	Monitoring and evaluation Consultant at International Fund dor Agricultural Development</li>
+                            <li><span>12/30/2015-10/9/2016</span><br>	Senior Monitoring and evaluation specialist at Ministry of Water, Irrigation and Electricity</li>
+                            <li><span>02/11/2014-12/30/2015</span><br>	Socio-Economist-V at Water Works, Study and Design Enterprise </li>
+                            <li><span>12/4/2012-02/10/2014</span><br>	Project Coordinator at Disabled Veterans Association </li>
+                            <li><span>10/25/2011-10/29/2012</span><br>	Project Coordinator at Business Development Center</li>
+                            <li><span>02/01/2010-05/15/2011</span><br>	Marketing Division Head at Harbel Industry PLC </li>
+                            <li><span>11/10/2006-02/08/2010</span><br>	Policy Analysit and Plan and Budget Expert at Bureau of Finance and Economic Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2010-2013</span><br>	Msc in Economics (Development Policy analysis) From Mekelle University </li>
+                            <li><span>2003-2006</span><br>	BA in Economics From Bahirdar University</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="trainnings">
+                        <ul>
+                            <li><span>02/05/2018-02/16/2018</span><br>	Project Management Program, ESAMI, Mombasa, Kenya  </li>
+                            <li><span>08/13/2019-08/17/2019</span><br>	Procurement and Contract Management, EIB, AFD, IDC and WRDF, Addis Ababa, Ethiopia.</li>
+                            <li><span>07/18/2017-07/28/2017</span><br>	Water Supply Project Appraisal Techniques, hydroaid, Addis Ababa, Ethiopia  </li>
+                            <li><span>10/11/2016-10/15/2016</span><br>	Project Appraisal Systems, Addis Ababa University, Addis Ababa, Ethiopia </li>
+                            <li><span>04/02/2012-04/06/2012</span><br> Applied Econometrics With Softwares, Ethiopian Economics Association, Mekelle, Ethiopia</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------- services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Design Monitoring and Evaluation Plan</h2>
+                <p>Water Supply Project Appraisal Techniques</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+                <h2>Create and Apply Plan and Reports Via Power BI</h2>
+                <p>Water Supply Project Appraisal Techniques</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-duotone fa-anchor"></i>
+                <h2>Plan, supervise, appraise, and evaluate projects via MS Project Planning</h2>
+                <p>Water Supply Project Appraisal Techniques</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-light fa-calendar-lines-pen"></i>
+                <h2>Design virtual questionnaires through Kobo ToolBox</h2>
+                <p>Water Supply Project Appraisal Techniques</p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------ portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="workl-list">
+            <div class="work">
+                <img src="images/Work-1SS.png">
+                <div class="layer">
+                    <h3>Pic of Power BI</h3>
+                    <p>This pic shows WRDF 2023 1st Quarter Report Dashboard</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                 <img src="images/Work-23.png">
+                 <div class="layer">
+                    <h3>Pic of Microsoft project planning</h3>
+                    <p>This pic shows WRDF 2023 1st Quarter Report Dashboard</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+               <img src="images/Work-2SS.png">
+               <div class="layer">
+                <h3>Kobo ToolBox</h3>
+                <p>This pic shows WRDF 2023 1st Quarter Report Dashboard</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+               <img src="images/Work-4s.png">
+               <div class="layer">
+                <h3>Pic Me and co-workers supervising project</h3>
+                <p>This pic shows WRDF 2023 1st Quarter Report Dashboard</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+               <img src="images/Work-5S.png">
+               <div class="layer">
+                <h3>Pic Me and co-workers supervising project</h3>
+                <p>This pic shows WRDF 2023 1st Quarter Report Dashboard</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+               <img src="images/Work-6s.png">
+               <div class="layer">
+                <h3>Pic Me and co-workers supervising project</h3>
+                <p>This pic shows WRDF 2023 1st Quarter Report Dashboard</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/Work-7s.png">
+                <div class="layer">
+                    <h3>Pic Me and co-workers supervising project</h3>
+                    <p>This pic shows WRDF 2023 1st Quarter Report Dashboard</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+             </div>
+             <div class="work">
+                <img src="images/Work-8S.png">
+                <div class="layer">
+                    <h3>Pic Me and co-workers supervising project</h3>
+                    <p>This pic shows WRDF 2023 1st Quarter Report Dashboard</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+             </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------------- Contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+           <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i> aklilusntayoh@gmail.com</p>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i> sintayohug@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i> +251-942-64-85-64</p>
+            <p><i class="fa-solid fa-phone-volume"></i> +251-703-26-77-22</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sntayoh-aklilu-b12964231/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <a href="images/my-cv - cover.pdf" download class="btn btn2">Download CV cover</a>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+           </div>
+           <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sintayohu Getachew. Made with <i class="fa-solid fa-heart"></i> Self-Motivation.</p>
+    </div>
+</div>
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw_It4Q1a7O2BOYG1OL4KHAXVEcl5LWPdL6nFy9fZLQ1ahO4fYY311uHBWG4cndVfza/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML="Message sent successfully" 
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
